@@ -19,11 +19,10 @@ public class Palindrome
 
 	public static boolean isPalindrome( String word )
 	{
-		int length = word.length();
 		boolean ans = false;
 
 		// base case
-		if ( length <= 1 )
+		if ( word.length() <= 1 )
 			return !ans; //true
 
 		// Don't forget: Strings are 0 indexed. 
